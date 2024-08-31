@@ -1,0 +1,173 @@
+*{
+  font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #FAF5F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    Font-size: 16px;
+    cursor: pointer;
+    
+    
+
+}
+.email-box i{
+    margin:0 10px;
+   color: crimson;
+  
+
+  }
+  .email-box span:hover{
+    color: rgb(228, 151, 77)
+
+  }
+
+
+.header .header-search-box{
+   display: flex;
+   flex-direction: row;
+}
+.header .header-search-box input{
+  all: unset;
+  border-bottom: 1px solid crimson;
+
+ }
+ .header .header-search-box  .first{
+    position: relative;
+   right: 20px;
+   color: crimson;
+
+   }
+
+.icon{
+    margin: 0 50px 0 30px;
+}
+.icon i{
+   font-size: 20px;
+   margin-left: 10px;
+   color: crimson;
+}
+.navbar {
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .navbar img{
+    width: 200px;
+    height: 80px;
+    color: #000;
+    background-color: black;
+    object-fit: contain;
+  }
+  .navbar .navbar-collapse .nav-contact-mobile {
+    display: none;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: crimson;
+    transition: 0.3s ease;
+  }
+    .swiper-slide:nth-child(1){
+    background-image: url('img/banner/pexels-ella-olsson-572949-1640777.jpg');
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    
+    }
+
+    .swiper-slide:nth-child(2){
+      background-image: url('img/banner/top-view-fast-food-plate-chicken-with-lemon-herbs-plate-bowls-black-pepper-sauces-french-fries-left-side-dark-table.jpg');
+      width: 100%;
+      height: 70vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 100% center;
+      
+      } 
+      .swiper-slide:nth-child(3){
+        background-image: url('img/banner/fruit-salad-spilling-floor-was-mess-vibrant-colors-textures-generative-ai.jpg');
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% center;
+        
+        } 
+     
+    .carousel-item h1{
+      color: aliceblue;
+      font-size: 50px;
+      color: crimson;
+      letter-spacing: 10px;
+      font-weight: bold;
+    }   
+    .carousel-item p{
+      padding-top: 10px;
+      font-size: 20px;
+    }  
+    .carousel-item button{
+      margin-top: 10px;
+      font-size: 20px;
+    }   
+   
+/* slider */
+
+/* .-img{
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top -80px center;
+  object-fit: cover;
+}
+    */
+
+
+    /* body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    } */
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
