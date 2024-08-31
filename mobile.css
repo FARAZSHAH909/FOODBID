@@ -1,4 +1,7 @@
 @media  (max-width:991px){
+    body{
+        font-family: "Grandstander", system-ui;
+    }
     .navbar-collapse .navbar-nav{
         display: flex;
        margin: 1rem;
